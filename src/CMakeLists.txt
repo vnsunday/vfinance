@@ -22,8 +22,10 @@ include_directories(./Vstock)
 file(GLOB SOURCES "Vstock/main.cpp" 
 					"Vstock/vstock/impl/*.cpp"
 					"Vstock/vstock/impl/finance/*.cpp")
+file(GLOB CONSTANT "apps/constants/constants.cpp")
 
 add_executable( main ${SOURCES} )
+add_executable( constants ${CONSTANT} )
 
 if (MSVC)
 	target_link_libraries(main libdynsocc.lib)
