@@ -19,13 +19,17 @@ double az_constant25[13][4] = {
 
 int main(int argc, char const *argv[])
 {
-	int iT = 2; 
+	int iT = 2;
+	int iG = 0;
 
 	double dT = 0.0;
+	double dG = 0.0;
 	for (int i=1; i<=12; i++ ) {
 		dT += az_constant25[i][iT];
+		dG += az_constant25[i][iG];
 	}
 
 	printf("Sum=%0.2f\r\n", dT);
+	printf("SumG=%0.2f\r\n", dG);
 	return 0;
 }
