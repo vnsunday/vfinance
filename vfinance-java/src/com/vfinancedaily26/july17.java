@@ -29,16 +29,14 @@ public class july17 {
 		ITask adapter = Task.Construct("StuffMessFind", "Adapter6V");
 		ITask java = Task.Construct("TopDownAware", "JVM");
 		
-		Task.Arrage3(sewing, adapter, adapter, "15+3");
+		Task.Arrange3(sewing, adapter, adapter, "15+3");
 		
 		
 		java.Techniques(new Object[] { "VocalKeyword" });
 		
 		Task.PauseLaterBetter(sewing);
 		Task.PauseLaterBetter(adapter);
-		
 		Task.Finish(java);
-		
 		return 0;
 	}
 
@@ -46,5 +44,4 @@ public class july17 {
 		d3_12thirdquarter_plus3();
 		d3_15_plus3();
 	}
-
 }

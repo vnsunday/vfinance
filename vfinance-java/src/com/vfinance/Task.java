@@ -5,7 +5,7 @@ public class Task {
 		return null;
 	}
 	
-	public static int Arrage3(ITask t1, ITask t2, ITask t3, String time) {
+	public static int Arrange3(ITask t1, ITask t2, ITask t3, String time) {
 		return 0;
 	}
 	

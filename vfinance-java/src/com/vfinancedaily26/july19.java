@@ -10,6 +10,6 @@ public class july19 {
 		ITask big_EN_audio = Task.Construct("", "");
 		ITask electricity = Task.Construct("MessStuffFinding", "Adapter");
 		
-		Task.Arrage3(atmosphere, big_EN_audio, electricity, "19 1/2+3");
+		Task.Arrange3(atmosphere, big_EN_audio, electricity, "19 1/2+3");
 	}
 }
