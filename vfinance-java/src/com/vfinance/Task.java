@@ -9,6 +9,10 @@ public class Task {
 		return 0;
 	}
 	
+	public static int Schedule(ITask[] tasks, int[] timedistribution) {
+		return 0;
+	}
+	
 	public static int Finish(ITask t) {
 		return 0;
 	}
