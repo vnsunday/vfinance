@@ -11,4 +11,10 @@ public class july27 {
 	    
 	    Task.Schedule(new ITask[] { enText, enVocal, business},  new int[] { 1, 1, 1 });
 	}
+	
+	public void d3_22plus1() {
+		ITask cs = Task.Construct("Visualize", "ZTable");
+		ITask power = Task.Construct("Power", "Finger+Stretch");
+		Task.Schedule(new ITask[] { cs, power }, new int[] {1, 1});
+	}
 }
