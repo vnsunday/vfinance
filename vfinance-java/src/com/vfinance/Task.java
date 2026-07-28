@@ -13,7 +13,7 @@ public class Task {
 		return 0;
 	}
 	
-	public static int Finish(ITask t) {
+	public static int Completed(ITask t[]) {
 		return 0;
 	}
 	
