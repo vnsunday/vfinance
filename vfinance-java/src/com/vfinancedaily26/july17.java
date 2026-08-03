@@ -15,7 +15,6 @@ public class july17 {
 		IMessStuffFind r2 = null; // Adapter 6V 
 		IMessStuffFind r3 = null; // Sewing automatic 
 		
-		
 		IFinished fn = null;
 		Object a3[] = { r1, r2, r3};
 		
@@ -30,13 +29,11 @@ public class july17 {
 		ITask java = Task.Construct("TopDownAware", "JVM");
 		
 		Task.Arrange3(sewing, adapter, adapter, "15+3");
-		
-		
 		java.Techniques(new Object[] { "VocalKeyword" });
 		
 		Task.PauseLaterBetter(sewing);
 		Task.PauseLaterBetter(adapter);
-		Task.Finish(java);
+		Task.Completed(new ITask[] { java } );
 		return 0;
 	}
 
