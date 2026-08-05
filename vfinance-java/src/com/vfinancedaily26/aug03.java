@@ -14,4 +14,11 @@ public class aug03 {
 		
 		Task.Schedule(new ITask[] { cf, exp, bid }, new int[] { 1, 1, 1 });
 	}
+	
+	public void d3_22half_plus1() {
+		ITask bid = Task.Construct("Bidding", "Source: Human");
+		bid.Strategy().DirectPhysicalContact(new String[] { "DirectTransaction" });
+		
+		Task.Schedule(new ITask[] { bid }, null);
+	}
 }
