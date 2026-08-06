@@ -15,4 +15,13 @@ public class aug06 {
 			{"Crypto-currency", ""}
 		});
 	}
+	
+	public void d3_15plus3() {
+		ITask t1 = Task.Construct("io-shop", "appearance-gift");
+		ITask t2 = Task.Construct("Automation", "Pencil");
+		
+		Task.Schedule(new ITask[] { t1, t2 }, null);
+	}
+	
+	public void d3_
 }
