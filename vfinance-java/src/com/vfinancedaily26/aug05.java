@@ -16,7 +16,12 @@ public class aug05 {
 		ITask load_text = Task.Construct("Load-Text", "EN");
 		ITask bidding = Task.Construct("bidding", "");
 		ITask ioshop = Task.Construct("IO-Shop", "Market. Custom. Gift");
-		
+				
 		Task.Schedule(new ITask[] { load_text, bidding, ioshop }, new int[] { 1, 1, 1});
+		
+		String[][] binary = new String[][] {
+			{ "Address (Embassy)", "Central Building"},
+			{ "Title", "Bussiness Analysis" }
+		};
 	}
 }
