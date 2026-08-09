@@ -22,6 +22,4 @@ public class aug06 {
 		
 		Task.Schedule(new ITask[] { t1, t2 }, null);
 	}
-	
-	public void d3_
 }
