@@ -8,4 +8,11 @@ public class aug11 {
 		ITask t1 = Task.Construct("load-text", null);
 		Task.Schedule(new ITask[] { t1 }, null);
 	}
+	
+	public void d3_15quarter_plus2() {
+		ITask t1 = Task.Construct("Clean-Structure", "Workspace");
+		ITask t2 = Task.Construct("load-text", "prepare");
+		
+		Task.Schedule(new ITask[] { t1, t2 }, null);
+	}
 }
