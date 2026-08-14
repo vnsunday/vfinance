@@ -11,5 +11,9 @@ public class aug14 {
 		MC.Graph("", new String[][] {
 			{ "Wave", "Vibration" }
 		});
+
+		MC.ListingNoSkip("String-Process", "Category=Human");
+		MC.Graph("String-Process", new String[][] {
+		});
 	}
 }
